@@ -2,7 +2,7 @@ import random
 print("Hi , What's your name?")
 n=input()
 print("Hi "+n+" Lets play a \"GUESS A NUMBER \" .Choose a numbre between 1 to 20 ")
-a=random.randint(1,20)
+a=random.randint(1,20)     #to genrate a random integer between 1 and 20
 c=1
 while c<=6:
   v=int(input())
