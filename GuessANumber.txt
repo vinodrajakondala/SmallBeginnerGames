@@ -1,0 +1,19 @@
+import random
+print("Hi , What's your name?")
+n=input()
+print("Hi "+n+" Lets play a \"GUESS A NUMBER \" .Choose a numbre between 1 to 20 ")
+a=random.randint(1,20)
+c=1
+while c<=6:
+  v=int(input())
+  if c<=6: 
+    if v<a:
+        print("You guessed lesser number.Plese try a bit bigger number")
+    elif v>a:
+        print("You guessed bigger number.Please try a lesser number")
+    else: 
+        print("Perfect, You got the number ")
+        break
+  else:
+    print("Thats fine anyhow , the number is ",a)
+  c+=1
